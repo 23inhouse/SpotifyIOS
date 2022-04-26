@@ -21,8 +21,5 @@ let package = Package(
         .target(
             name: "BouncrSpotify",
             dependencies: []),
-        .testTarget(
-            name: "BouncrSpotifyTests",
-            dependencies: ["BouncrSpotify"]),
     ]
 )
